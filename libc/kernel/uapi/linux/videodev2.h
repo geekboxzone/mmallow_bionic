@@ -870,6 +870,7 @@ struct v4l2_ext_control {
     __u32 __user * p_u32;
     void __user * ptr;
   };
+  __s32 rect[4];/*rockchip add for focus zone*/
 /* WARNING: DO NOT EDIT, AUTO-GENERATED CODE - SEE TOP FOR INSTRUCTIONS */
 } __attribute__((packed));
 struct v4l2_ext_controls {
